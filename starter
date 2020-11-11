@@ -1,0 +1,11 @@
+v env
+venv\Scripts\activate 
+
+set file
+set FLASK_APP=main.py  
+
+set env
+set FLASK_ENV=development  
+
+run server
+flask run
